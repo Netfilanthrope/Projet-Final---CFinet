@@ -7,7 +7,7 @@ body{
   padding: 0px;
 }
 h1{
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
   color:  #41A3C0; 
   font-weight: bolder;
   font-size: 40px;
@@ -41,7 +41,7 @@ nav {
 	text-align: center;
 	font-weight: bolder;
 	text-decoration: none;
-	font-family: 'Montserrat', sans-serif
+	font-family: 'Montserrat', sans-serif;
 }
 nav a {
 	padding: 20px 30px;
@@ -68,3 +68,35 @@ nav a {
 	float: left;
 	width: 50%
 }
+#casting{
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: left;
+}
+ .feature {border: 1px solid #F2F2F2; 
+          margin: 10px;
+          padding: 10px 0;
+          text-align: center;
+          width: 350px;
+          background: #FAFAFA;
+}
+#realisateurs{
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: left;
+  }
+
+/* Sur tout type d'écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media all and (max-width: 1280px)
+
+/* Sur tout type d'écrans, quand la largeur est comprise entre 1024 et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+
+/* Sur tout type d'écrans orientés verticalement */
+@media all and (orientation : portrait)
